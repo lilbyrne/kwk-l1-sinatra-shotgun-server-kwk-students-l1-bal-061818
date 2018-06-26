@@ -3,11 +3,11 @@ require_relative 'config/environment'
 class App < Sinatra::Base
 
   get '/' do 
-    "Welcome to your app!!!! Shotgun is so much better than rackup! "
+    "Sinatra is alright "
   end
   
   get '/info' do 
-    "Sinatra is cool!"
+    "Second page"
   end 
 
 end
